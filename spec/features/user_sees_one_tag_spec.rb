@@ -4,7 +4,7 @@ describe "user sees one tag" do
   describe "they link from an article show" do
     it "displays a tag's information" do
       article = Article.create!(title: "New Title", body: "New Body")
-      tag = article.tag.create(name: "Name")
+      tag = article.tags.create(name: "Name")
 
       visit article_path(article)
       click_link "Name"
