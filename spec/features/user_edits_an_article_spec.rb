@@ -9,7 +9,7 @@ describe "user edits an article" do
         visit article_path(article)
 
         click_link "Edit"
-        
+
         fill_in "article[title]", with: "Different Title"
         fill_in "article[body]", with: "Different Body"
         click_on "Update Article"
@@ -19,6 +19,7 @@ describe "user edits an article" do
         expect(page).to_not have_content("Title 1")
         expect(page).to have_content("Different Body")
         expect(page).to_not have_content("Body 1")
+        expect(page).to have_content("Article Different Title Updated!")
       end
     end
   end
