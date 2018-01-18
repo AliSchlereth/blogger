@@ -8,6 +8,8 @@ describe "user edits an article" do
 
         visit article_path(article)
 
+        click_link "Edit"
+        
         fill_in "article[title]", with: "Different Title"
         fill_in "article[body]", with: "Different Body"
         click_on "Update Article"
