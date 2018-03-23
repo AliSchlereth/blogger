@@ -17,14 +17,14 @@ describe "user creates a new article" do
         expect(page).to have_content("New Title!")
         expect(page).to have_content("New Body!")
         expect(page).to have_content("Article New Title! Created!")
-        expect(page).to have_content("ruby technology")
+        expect(page).to have_content("ruby technology") # <-- This is slightly different and sent me down a link comma seperation rabbit hole. I thought that the methods in the Article model would take care of it.
       end
     end
   end
 end
 
 =begin
-  I thought maybe I had done something wrong since the spec shows
+  I thought maybe I had done something wrong since the spec shows:
   Run your tests again. I got this error:
 
 Failures:
