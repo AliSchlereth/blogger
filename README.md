@@ -13,7 +13,7 @@ In this project you'll create a simple blog system and learn the basics of Ruby 
 Check out the tutorial on Turing's Backend Engineering Website [here](http://backend.turing.io/module2/misc/blogger) or straight off of GitHub [here](https://github.com/turingschool/backend-curriculum-site/blob/gh-pages/module2/misc/blogger.md)
 
 ### Finding the code you want to reference:
-The master branch has completed functionality through Iter3. 
+The master branch has completed functionality through Iter3 (Plus [Paperclip](https://github.com/thoughtbot/paperclip)). 
 I've included branches for each piece of functionality along the way. If you're stuck on a particular part of the implementation I encourage you to take a look at the specific branch since later iterations might have impacted the code on the master branch. 
 
 
